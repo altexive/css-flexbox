@@ -4,7 +4,6 @@
 
 * {
     font-family: 'open sans';
-    background-color: rgb(255, 255, 255);
     color:rgb(36, 36, 36);
     margin: 0px;
     padding: 0px;
@@ -18,6 +17,7 @@ Body{
     background-image: url("frankie-lopez-L6mH2DPYDQk-unsplash.jpg");
     background-position: center;
     min-height: 380px;
+    background-size: cover;
 }
 .main{
     display: flex;
@@ -28,6 +28,7 @@ Body{
 
 }
 
+
 .full_block {
     border: 1px  solid;
     border-color: black;
@@ -35,6 +36,7 @@ Body{
     padding: 4%;
     padding-top: 0px;
     margin-top: 5%;
+    background-color: white;
 }
 
 .full_block h2{
