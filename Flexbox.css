@@ -1,0 +1,97 @@
+/*-----------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'open sans';
+    background-color: rgb(255, 255, 255);
+    color:rgb(36, 36, 36);
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+/*-----------------------------------------------------*/
+/* mise en forme générale */
+/*-----------------------------------------------------*/
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.full_block {
+    border: 1px  solid;
+    border-color: black;
+    width: 20%;
+    padding: 4%;
+    padding-top: 0px;
+}
+
+.full_block h2{
+    text-align: center;
+    margin:10%;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    color:rgb(104, 104, 104);
+    font-size: 40px;
+}
+
+.username, .password, .bottom{
+
+    margin-bottom: 15%;  
+}
+
+.username input,
+.password input{
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #99cbc7 ;
+        
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fa-solid{
+    margin-right: 10%;
+}
+
+/* boutton */
+
+.full_block>div:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.login{
+    border : none;
+    background: rgb(3,194,194);
+    background: linear-gradient(90deg, rgba(3,194,194,1) 0%, rgba(2,164,159,1) 100%); 
+    color: white;
+    padding: 45%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bottom div input{
+    width: 17px;
+    height: 17px;    
+}
+
+.bottom div label{
+    font-size: 18px;
+}
+.bottom a{
+    font-size: 18px;
+    color:rgb(204, 204, 204);
+    text-decoration: none;
+
+}
+/*-----------------------------------------------------*/
+
+/*-----------------------------------------------------*/
