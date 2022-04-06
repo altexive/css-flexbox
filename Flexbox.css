@@ -14,10 +14,18 @@
 /*-----------------------------------------------------*/
 /* mise en forme générale */
 /*-----------------------------------------------------*/
-
+Body{
+    background-image: url("frankie-lopez-L6mH2DPYDQk-unsplash.jpg");
+    background-position: center;
+    min-height: 380px;
+}
 .main{
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
 }
 
 .full_block {
@@ -26,6 +34,7 @@
     width: 20%;
     padding: 4%;
     padding-top: 0px;
+    margin-top: 5%;
 }
 
 .full_block h2{
@@ -90,8 +99,9 @@
     font-size: 18px;
     color:rgb(204, 204, 204);
     text-decoration: none;
-
 }
+
+
 /*-----------------------------------------------------*/
 
 /*-----------------------------------------------------*/
